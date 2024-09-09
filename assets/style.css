@@ -1,0 +1,42 @@
+
+.dashboardx{
+  justify-content: space-between;
+  box-shadow: 1px 3px 8px #000;
+}
+.dashx card{
+  height:100%;
+}
+.dashboardx img{
+  height: 50px;
+  width: 50px;
+}
+.side-iconx{
+  height: 100%;
+  /* position: fixed; */
+  box-shadow: 1px 3px 8px #333;
+}
+.side-iconx ul,
+.side-iconx ul li a{
+  text-decoration: none;
+  color: #000;
+  transition: all ease .4s;
+}
+.offcanvas ul li a{
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.offcanvas ul li span{
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  padding: 0 5px;
+}
+.side-iconx ul li{
+  list-style: none;
+  font-size: 35px;
+}
+.side-iconx ul li:hover a{
+  color: #fff;
+}

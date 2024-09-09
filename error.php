@@ -1,0 +1,1 @@
+Failed to connect to server: SQLSTATE[HY000] [1698] Access denied for user 'root'@'localhost'

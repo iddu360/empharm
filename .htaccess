@@ -1,0 +1,29 @@
+
+
+RewriteEngine on
+RewriteRule ^Setup_online_pharmacy?$ create-shop.php
+RewriteRule ^Manage_Pharmacy?$ dashboard.php
+RewriteRule ^Equipment_Stock_inventory_management?$ data_equipment.php
+RewriteRule ^Invoice_management?$ data_invoices.php
+RewriteRule ^Suppliers_and_Manufacturers_database_management?$ data_manufacturers.php
+RewriteRule ^Medicine_Stock_inventory_management?$ data_medicine.php
+RewriteRule ^Reports_and_inventory_management?$ data_reports.php
+RewriteRule ^Add_equipment_stock_to_pharmacy?$ data_shop_equip.php
+RewriteRule ^Add_medicine_stock_to_pharmacy?$ data_shop_med.php
+RewriteRule ^Empharm_Online_Pharmacy_home?$ index.php
+RewriteRule ^Empharm_Online_Pharmacy_Equipment_Section?$ index2.php
+RewriteRule ^Your_invoice_preview?$ invoice_preview.php
+RewriteRule ^Your_item_preview?$ med_preview.php
+RewriteRule ^Your_selected_item_preview?$ equip_preview.php
+RewriteRule ^Login_to_your_account?$ page_login.php
+RewriteRule ^Register_to_Ompharm_online_pharmacy?$ page_register.php
+RewriteRule ^Register_to_Ompharm_online_pharmacy_2?$ page_register2.php
+RewriteRule ^Register_to_Ompharm_online_pharmacy_3?$ page_register3.php
+RewriteRule ^Register_to_Ompharm_online_pharmacy_4?$ page_register4.php
+RewriteRule ^Onpharm_Dashboard_page_settings?$ page_settings.php
+RewriteRule ^Onpharm_registration_success?$ page_success.php
+RewriteRule ^Onpharm_shopping_cart?$ shopping_cart.php
+RewriteRule ^User_messages?$ user_message.php
+RewriteRule ^User_notifications?$ user_notifications.php
+RewriteRule ^User_profile?$ users_profile.php
+RewriteRule ^Manage_users?$ users_users.php
